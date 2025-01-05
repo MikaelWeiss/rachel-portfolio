@@ -7,7 +7,6 @@
  * 3. Paste the SVG code in your editor.
  * 4. Remove the `<svg>` wrapper so you only have elements like `<path>`, `<circle>`, `<rect>` etc.
  * 5. Remove any `stroke="#000000"` attributes
- * 6. Replace any `fill="#000000"` attributes with `stroke="none"`
  *    (or add `stroke="none"` on shapes with no `fill` or `stroke` specified).
  */
 export const iconPaths = {
@@ -36,4 +35,41 @@ export const iconPaths = {
 	'instagram-logo': `<circle cx="128" cy="128" r="40" fill="none" stroke-miterlimit="10" stroke-width="16"/><rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="48"/><circle cx="180" cy="76" r="12" stroke="none" />`,
 	'tiktok-logo': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M168 106a96 96 0 0 0 56 18V84a56 56 0 0 1-56-56h-40v128a28 28 0 1 1-40-25V89a68 68 0 1 0 80 67Z"/>`,
 	'paint-brush': `<path stroke="none" d="M128 140s28.78-5.06 27.52 27.52-64.86 18.66-64.86 18.66c0 0 17.72-47.14 37.34-46.18Z"/><path stroke="none" d="M218 62s-12.02-8.78-75.92 67.58l21.2 20.68s62-61.86 54.72-88.26Z"/>`,
+	'icon-logo': `<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 50">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .st1 {
+        opacity: .52;
+        stroke-linecap: round;
+        stroke-linejoin: bevel;
+        stroke-width: 5px;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="st0" x="8.08" y="7.47" width="34.24" height="35.6"/>
+  <path class="st1" d="M4.07,5.23c26.63,2.85,34.81,7.28,34.83,9.31.02,3.13-17.19,4.87-17.1,8.3.06,2.18,8.33,5.52,16.02,5.36,1.85-.04,3.54-.28,4.22.63,1.6,2.1-5.02,6.67-3.83,10.81.48,1.65,2.33,3.65,8.39,5.14"/>
+  <path class="st2" d="M15.18,23.41c-.1.18-3.82-3.51-1.12-10.93,0,0,3.82,5.98,1.12,10.93Z"/>
+  <path class="st2" d="M16.55,24.1c-.21.06.02-4.96,7.67-8.43,0,0-1.94,6.7-7.67,8.43Z"/>
+  <path class="st2" d="M16.97,25.48c-.2-.09,3.85-3.48,11.93-.94,0,0-6.55,3.46-11.93.94Z"/>
+  <path class="st2" d="M16.2,26.73c-.07-.2,5.41.06,9.13,7.1,0,0-7.29-1.83-9.13-7.1Z"/>
+  <path class="st2" d="M14.69,27.11c.1-.18,3.76,3.56.93,10.94,0,0-3.72-6.03-.93-10.94Z"/>
+  <path class="st2" d="M13.34,26.4c.21-.06-.11,4.96-7.82,8.31,0,0,2.05-6.67,7.82-8.31Z"/>
+  <path class="st2" d="M12.93,25.01c.2.1-3.91,3.42-11.94.77,0,0,6.61-3.36,11.94-.77Z"/>
+  <path class="st2" d="M13.72,23.77c.07.2-5.4-.14-9.01-7.23,0,0,7.26,1.94,9.01,7.23Z"/>
+</svg>`,
+	'color-wheel': `<rect width="120" height="120" x="68" y="68" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M68 68L188 188M68 188L188 68M68 128L188 128M128 68L128 188M98 68L188 158"/>`,
 };
