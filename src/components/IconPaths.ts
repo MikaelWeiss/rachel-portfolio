@@ -71,5 +71,5 @@ export const iconPaths = {
   <path class="st2" d="M12.93,25.01c.2.1-3.91,3.42-11.94.77,0,0,6.61-3.36,11.94-.77Z"/>
   <path class="st2" d="M13.72,23.77c.07.2-5.4-.14-9.01-7.23,0,0,7.26,1.94,9.01,7.23Z"/>
 </svg>`,
-	'color-wheel': `<rect width="120" height="120" x="68" y="68" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M68 68L188 188M68 188L188 68M68 128L188 128M128 68L128 188M98 68L188 158"/>`,
+	'color-wheel': `<rect width="140" height="140" x="58" y="58" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M58 58L198 198M58 198L198 58M58 128L198 128M128 58L128 198M88 58L198 168"/>`,
 };
