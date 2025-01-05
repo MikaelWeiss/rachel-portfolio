@@ -30,19 +30,19 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, I'm Rachel Weiss"
+					tagline="I'm a Graphic Designer crafting thoughtful digital experiences in Rexburg, Idaho."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" /> Designer</Pill>
+						<Pill><Icon icon="strategy" size="1.33em" /> Strategist</Pill>
+						<Pill><Icon icon="paint-brush" size="1.33em" /> Artist</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Rachel Weiss smiling in a casual professional outfit"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -55,8 +55,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Featured Projects</h3>
+					<p>Explore some of my recent design work where I've helped brands connect with their audiences.</p>
 				</header>
 
 				<div class="gallery">
@@ -81,17 +81,16 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Recognition</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						My work has been recognized by leading design publications and platforms. Here are some places my work has been featured.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Behance', 'Dribbble', 'Adobe', 'Awwwards', 'Communication Arts'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
@@ -241,6 +240,13 @@ const projects = (await getCollection('work'))
 		color: var(--gray-300);
 		background: var(--gradient-subtle);
 		box-shadow: var(--shadow-sm);
+		transition: all 0.3s ease;
+	}
+
+	.mention-card:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+		border-color: var(--gray-700);
 	}
 
 	@media (min-width: 50em) {
