@@ -1,6 +1,6 @@
 ---
 title: Paula Scher Art Show Brochure
-publishDate: 1999-01-01 00:00:00
+publishDate: 2025-01-04 00:00:00
 img: /assets/philla-museum-of-art.png
 img_alt: image of museum brochure cover
 pdf: /assets/pdfs/philla-museum-of-art.pdf
