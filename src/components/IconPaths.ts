@@ -7,7 +7,6 @@
  * 3. Paste the SVG code in your editor.
  * 4. Remove the `<svg>` wrapper so you only have elements like `<path>`, `<circle>`, `<rect>` etc.
  * 5. Remove any `stroke="#000000"` attributes
- * 6. Replace any `fill="#000000"` attributes with `stroke="none"`
  *    (or add `stroke="none"` on shapes with no `fill` or `stroke` specified).
  */
 export const iconPaths = {
@@ -35,5 +34,5 @@ export const iconPaths = {
 	'linkedin-logo': `<rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="8"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M120 112v64m-32-64v64m32-36a28 28 0 0 1 56 0v36"/><circle stroke="none" cx="88" cy="80" r="12"/>`,
 	'instagram-logo': `<circle cx="128" cy="128" r="40" fill="none" stroke-miterlimit="10" stroke-width="16"/><rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="48"/><circle cx="180" cy="76" r="12" stroke="none" />`,
 	'tiktok-logo': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M168 106a96 96 0 0 0 56 18V84a56 56 0 0 1-56-56h-40v128a28 28 0 1 1-40-25V89a68 68 0 1 0 80 67Z"/>`,
-	'paint-brush': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M172 32c12.6 0 22.8 9.3 22.8 20.9 0 7.1-3.7 13.5-9.4 17.1L128 108.4l-57.4-38.4C64.9 66.4 61.2 60 61.2 52.9 61.2 41.3 71.4 32 84 32h88zM128 108v116"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M128 224c-16 0-32-8-32-24s16-24 32-24s32 8 32 24s-16 24-32 24z"/>`,
+	'paint-brush': `<path stroke="none" d="M128 140s28.78-5.06 27.52 27.52-64.86 18.66-64.86 18.66c0 0 17.72-47.14 37.34-46.18Z"/><path stroke="none" d="M218 62s-12.02-8.78-75.92 67.58l21.2 20.68s62-61.86 54.72-88.26Z"/>`,
 };
