@@ -3,7 +3,7 @@
 This repository contains both software and media files, which are covered under different licenses:
 
 ## Media Files License
-Copyright (c) 2025 Mikael Weiss / Weiss Solutions LLC
+Copyright (c) 2025 Weiss Solutions LLC
 
 All rights reserved.
 
