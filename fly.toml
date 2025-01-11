@@ -16,6 +16,14 @@ primary_region = 'sea'
   min_machines_running = 0
   processes = ['app']
 
+[[statics]]
+  guest_path = "/app/dist/client"
+  url_prefix = "/"
+
+[mounts]
+  source = "rachel_portfolio_data"
+  destination = "/app/dist/client/assets"
+
 [[vm]]
   size = 'shared-cpu-1x'
-  memory = '2gb'
+  memory = '1gb'
