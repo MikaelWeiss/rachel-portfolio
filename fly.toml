@@ -22,7 +22,7 @@ primary_region = 'sea'
 
 [mounts]
   source = "rachel_portfolio_data"
-  destination = "/usr/share/nginx/html/assets"
+  destination = "/app/dist/assets"
 
 [[vm]]
   size = 'shared-cpu-1x'
