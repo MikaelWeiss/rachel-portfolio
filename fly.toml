@@ -23,7 +23,3 @@ primary_region = 'sea'
 [mounts]
   source = "rachel_portfolio_data"
   destination = "/app/dist/assets"
-
-[[vm]]
-  size = 'shared-cpu-1x'
-  memory = '1gb'
