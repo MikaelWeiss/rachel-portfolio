@@ -5,7 +5,6 @@ img: /assets/meditation-information-brocher.png
 img_alt: image of meditation information brocher
 pdf: /assets/pdfs/meditation-information-brocher.pdf
 description: |
-  I designed a logo for an app.
 tags:
   - Design
   - Branding

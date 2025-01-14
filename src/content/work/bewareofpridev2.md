@@ -5,7 +5,6 @@ img: /assets/bewareofpridev2.png
 img_alt: image of beware of pride
 pdf: /assets/pdfs/bewareofpridev2.pdf
 description: |
-  I designed a logo for an app.
 tags:
   - Design
   - Branding

@@ -5,7 +5,6 @@ img: /assets/abcsbook.png
 img_alt: image of abcs book
 pdf: /assets/pdfs/abcsbook.pdf
 description: |
-  I designed a logo for an app.
 tags:
   - Design
   - Branding
