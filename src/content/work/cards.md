@@ -1,6 +1,6 @@
 ---
 title: Playing Cards
-publishDate: 2025-01-04 00:00:00
+publishDate: 2025-01-14 00:00:00
 img: /assets/cards.png
 img_alt: image of custom playing card
 pdf: /assets/pdfs/cards.pdf

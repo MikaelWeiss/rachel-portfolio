@@ -1,6 +1,6 @@
 ---
 title: BYU-Idaho Campus Booklet
-publishDate: 2025-01-04 00:00:00
+publishDate: 2025-01-18 00:00:00
 img: /assets/byui-campus-map.png
 img_alt: BYU-Idaho Campus Map Booklet Cover
 pdf: /assets/pdfs/byui-campus-map.pdf

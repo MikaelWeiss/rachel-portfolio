@@ -1,6 +1,6 @@
 ---
 title: Graduation Poster
-publishDate: 2025-01-04 00:00:00
+publishDate: 2025-01-15 00:00:00
 img: /assets/grant-graduation.jpg
 img_alt: Image of Grant's Graduation
 pdf: /assets/pdfs/grant-graduation.pdf

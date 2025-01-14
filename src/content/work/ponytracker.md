@@ -1,6 +1,6 @@
 ---
 title: Pony Tracker
-publishDate: 2025-01-10 00:00:00
+publishDate: 2025-01-16 00:00:00
 img: /assets/ponytracker.png
 img_alt: image of pony tracker app
 description: |
