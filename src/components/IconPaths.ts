@@ -3,7 +3,7 @@
  *
  * Want to add more?
  * 1. Find the icon you want on Phosphor Icons.
- * 2. Click “Copy SVG”.
+ * 2. Click "Copy SVG".
  * 3. Paste the SVG code in your editor.
  * 4. Remove the `<svg>` wrapper so you only have elements like `<path>`, `<circle>`, `<rect>` etc.
  * 5. Remove any `stroke="#000000"` attributes
@@ -59,4 +59,6 @@ export const iconPaths = {
   <path class="st1" d="M4.07,5.23c26.63,2.85,34.81,7.28,31,9.31.02,3.13-17.19,4.87-17.1,8.3.06,2.18,8.33,5.52,16.02,5.36,1.85-.04,3.54-.28,4.22.63,1.6,2.1-5.02,6.67-3.83,10.81.48,1.65,2.33,3.65,8.39,9.14"/>
 </svg>`,
 	'color-wheel': `<rect width="140" height="140" x="58" y="58" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M58 58L198 198M58 198L198 58M58 128L198 128M128 58L128 198M88 58L198 168"/>`,
+	'envelope': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M48 64h160a8 8 0 0 1 8 8v96a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8V72a8 8 0 0 1 8-8Z"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="m48 88 72 48 72-48"/>`,
+	'phone': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M88 64h88a8 8 0 0 1 8 8v80a8 8 0 0 1-8 8H88a8 8 0 0 1-8-8V72a8 8 0 0 1 8-8Z"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M88 88h88M88 104h88M88 120h88"/>`,
 };
